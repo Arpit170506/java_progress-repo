@@ -56,7 +56,7 @@ public class Football_match {
             int mid = left + (right - left) / 2;
             if (arr[mid] <= target) {
                 count = mid + 1;
-                left = mid - 1;
+                left = mid + 1;
             } else {
                 right = mid - 1;
             }
